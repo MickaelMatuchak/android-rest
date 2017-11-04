@@ -12,10 +12,14 @@ import retrofit2.http.FormUrlEncoded;
 import retrofit2.Call;
 
 public interface APIService {
+    /*
     @GET("/posts")
     Call<List<Post>> getPosts();
+    */
 
+    /*
     @POST("/posts")
     @FormUrlEncoded
     Call<Post> addPost(@Field("name") String name, @Field("message") String message);
+    */
 }

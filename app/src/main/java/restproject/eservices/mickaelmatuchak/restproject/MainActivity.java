@@ -25,8 +25,13 @@ import retrofit2.Call;
 
 public class MainActivity extends AppCompatActivity {
 
+    /*
     private Retrofit retrofit = RetrofitClient.getClient("https://sleepy-everglades-62123.herokuapp.com");
+    */
+
+    /*
     private APIService service = retrofit.create(APIService.class);
+    */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void actualizePosts(View v) {
+        /*
         this.service.getPosts().enqueue(new Callback<List<Post>>() {
             @Override
             public void onResponse(Call<List<Post>> call, Response<List<Post>> response) {
@@ -63,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
                 System.out.println("Erreur...");
             }
         });
+        */
     }
 
     public void addPost(View v) {
@@ -112,6 +119,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sendPost(String name, String message) {
+         /*
         this.service.addPost(name, message).enqueue(new Callback<Post>() {
             @Override
             public void onResponse(Call<Post> call, Response<Post> response) {
@@ -125,5 +133,6 @@ public class MainActivity extends AppCompatActivity {
                 System.out.println("Erreur...");
             }
         });
+        */
     }
 }

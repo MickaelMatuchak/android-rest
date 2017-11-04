@@ -4,16 +4,16 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 public class Post {
-    @SerializedName("id")
-    @Expose
+    //@SerializedName("id")
+    //@Expose
     private int id;
 
-    @SerializedName("name")
-    @Expose
+    //@SerializedName("name")
+    //@Expose
     private String name;
 
-    @SerializedName("message")
-    @Expose
+    //@SerializedName("message")
+    //@Expose
     private String message;
 
     public int getId() {
